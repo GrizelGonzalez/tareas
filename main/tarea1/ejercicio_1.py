@@ -2,4 +2,6 @@
 #print(palabra)
 """comentario"""
 
-print('Mensaje:', input('Ingresa mensaje: ')) 
+print('Mensaje:', input('Ingresa mensaje: '))
+
+#te amo
