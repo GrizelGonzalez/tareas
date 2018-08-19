@@ -9,4 +9,4 @@ print("Ingresa tu altura: ")
 height = input()
 height = float(height)
 
-print(name,year,height)
+print(name, year, height)
