@@ -5,3 +5,4 @@
 print('Mensaje:', input('Ingresa mensaje: '))
 
 #te amo
+#yo tambien mi penosita <3
