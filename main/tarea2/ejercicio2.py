@@ -2,7 +2,7 @@ import random
 
 precio = int(random.randint(1, 500))
 articulo = input("Nombre del articulo: ")
-print("Precio de +articulo+ es $+precio+")
+print("Precio de "+articulo+" es $"+precio)
 
 flag = True
 while flag:
