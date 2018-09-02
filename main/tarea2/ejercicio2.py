@@ -2,7 +2,7 @@ import random
 
 precio = int(random.randint(1, 500))
 articulo = input("Nombre del articulo: ")
-print(f"Precio de {articulo} es ${precio}")
+print("Precio de +articulo+ es $+precio+")
 
 flag = True
 while flag:
@@ -11,7 +11,8 @@ while flag:
         print("Dinero insufisiente!")
         flag = True
     else:
-        print(f"Total:{precio}")
-        print(f"Pago:{pago}")
-        print(f"Cambio: {pago-precio}")
+        print("Total:{precio}")
+        print("Pago:{pago}")
+        print("Cambio: {pago-precio}")
         flag = False
+
