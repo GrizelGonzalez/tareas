@@ -13,7 +13,7 @@ Input = {'Nombre': input('Ingresa tu nombre: '), 'Edad': input('Ingresa tu edad:
 for key in Input:
     '''Al final solo va imprimiendo el dicionario con su clave y valor según como a avance el for, que serán 3 veces,
         end='' solo quita el salto de linea al print y le puse una coma y un espacio'''
-    print(key+': '+Input[key], end=", ")
+    print(key+': '+Input[key])
 
 '''Nota: Arriba esta tu tarea normal un poquito mejorada y te deje esa otra...todo es diferente a la mía y
          mejor que la mía diría yo tu decides que usar queda a tu opinión'''
