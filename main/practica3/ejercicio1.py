@@ -9,7 +9,8 @@ while opc == 'y':
 print(lista)
 sum = 0.0
 suma2 = 0.0
-for i in range(0,len(lista)):
+
+for i in range(0, len(lista)):
     sum = sum+lista[i]
     media = sum/len(lista)
     print("La media es:", media)
