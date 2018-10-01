@@ -1,9 +1,9 @@
 lista = ["Ana", "Luis", "Pedro", "Juan"]
 print(lista)
-remover = input('Nombre que desea remover: ')
-lista.remove(remover)
-nombre = input("Ingrese el nombre nuevo: ")
-lista.append(nombre)
+remover = input('Escribe el nombre que desea remover: ')
+lista.remove(remover.capitalize())
+nombre = input("Ingrese el nombre nuevo para agregar: ")
+lista.append(nombre.capitalize())
 
 print(lista)
 
