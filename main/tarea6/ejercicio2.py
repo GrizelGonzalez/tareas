@@ -1,5 +1,10 @@
 lista = ["Ana", "Luis", "Pedro", "Juan"]
-print(lista)
-nombre = input("Ingrese el nombre a eliminar : ")
-lista.remove(nombre.capitalize())
-print(lista)
+while True:
+    print(lista)
+    nombre = input("Ingrese el nombre a eliminar : ")
+    lista.remove(nombre.capitalize())
+    print(lista)
+
+    opc = input('¿Desea continuar? s/n: ')
+    if opc.lower() != 's':
+        break
